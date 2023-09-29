@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ale</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/descarga.jpg" alt="">
+            </div>
+            <h1>Alejandro Luna</h1>
+            <h2>Estudiante y entusiasta - Hacking</h2>
+            <div class="redes">
+                <a href="https://w.app/DWcmsG"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/alejandro-luna-157464230/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola!, soy Alejandro .</span> Tengo 15 años y soy un entusiasta de la informatica y las ciencias computacionales, me gusta saber, leer y ayudar/trabajar en equipo. Estoy enfocado principalmente en el hacking y low level, pero actualmente estudio desarrollo web.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            25-01-2008
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +5493816547736
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            -
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            -
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Tucumán, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCER</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>PC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-keyboard"></i>
+                            <span>CODING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-windows"></i>
+                            <span>WINDOWS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-terminal"></i>
+                            <span>SCRIPTING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-server"></i>
+                            <span>SERVER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button><a href="Scan 29 sept 23 08·35·29 1.pdf" class="Download" download="CV">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Windows/Ubuntu server</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Shell</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Organización</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Aprendizaje</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Electrónica</h4>
+                        <span class="casa">Técnica 2 Obispo colombres</span>
+                        <span class="fecha">2020 - 2023</span>
+                        <p>Actualmente me encuentro estudiando en la escuela secundaria "Tecnica 2 Obispo Colombres" en la especialidad de Electrónica, algo que me gusta y aprendo cada dia.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Hacking y Programación</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Cuento con cursos hechos en la plataforma de Udemy como Windows avanzado, Scripting en windows, hacking basico, entre otros como Python intermedio.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Hacking</h4>
+                        <span class="casa">Plataforma Online Hackermentor</span>
+                        <span class="fecha">2022</span>
+                        <p>Tuve la oportunidad de realizar un curso bastante completo en la plataforma de hacker mentor, sobre hacking y reconocimiento.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Osint</h4>
+                        <span class="casa">Reconocimiento y explotación</span>
+                        <span class="fecha">-</span>
+                        <p>Tengo experiencia en osint y en Inteligencia de amenazas con proyectos como un Scrapper en Python.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Python</h4>
+                        <span class="casa">Proyectos en Python</span>
+                        <span class="fecha">2020-2023</span>
+                        <p>Tengo diversos proyectos a subir a mi github como proyectos basicos como una calculadora CLI y GUI hasta backend con Python y base de datos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Web Developer</h4>
+                        <span class="casa">NOA</span>
+                        <span class="fecha">2023</span>
+                        <p>Actualmente me encuentro terminando un curso de desarrollo web en el instituto NOA</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" name="nombre" placeholder="Tú Nombre">
+                    <input type="text" name="numero" placeholder="Número telefónico">
+                    <input type="text" name="correo" placeholder="Dirección de correo">
+                    <input type="text" name="tema" placeholder="Tema">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button id="obtenerDato">
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <script>
+                    const boton = document.getElementById("obtenerDato");
+                    const nombre = document.getElementsByName("nombre")[0]; // Usar [0] para obtener el primer elemento
+                    const numero = document.getElementsByName("numero")[0];
+                    const correo = document.getElementsByName("correo")[0];
+                    const tema = document.getElementsByName("tema")[0];
+                    const mensaje = document.getElementsByName("mensaje")[0];
+                
+                    boton.addEventListener("click", function() {
+                        const nombreDato = nombre.value; // Usar .value para obtener el valor
+                        const numeroDato = numero.value;
+                        const correoDato = correo.value;
+                        const temaDato = tema.value;
+                        const mensajeDato = mensaje.value;
+                
+                        alert("Nombre: " + nombreDato + "\nNúmero: " + numeroDato + "\nCorreo: " + correoDato + "\nTema: " + temaDato + "\nMensaje: " + mensajeDato);
+                    });
+                </script>
+                
+
+
+
+
+
+                </script>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                San Miguel de Tucumán
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 444 - 4444 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: aleprise@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/alejandro-luna-157464230/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://w.app/DWcmsG"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
